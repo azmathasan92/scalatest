@@ -5,4 +5,5 @@ class CubeCalculatorTest extends FunSuite {
     assert(CubeCalculator.cube(3) === 27)
   }
 
+
 }

@@ -1,12 +1,10 @@
 
 
-object CubeCalculator{
-  def main(args:Array[String]): Unit =
-  {
-   println(CubeCalculator.cube(3))
-  }
+object CubeCalculator extends App {
+
   def cube(x: Int) = {
     x * x * x
   }
 
+  cube(56)
 }
